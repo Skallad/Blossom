@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background-color: #d4dfe9;
-    position: relative;
 }
 
 h1 {
@@ -30,11 +35,10 @@ p {
     padding: 15px;
 }
 
-#bform {
+#month-form {
     margin: auto;
     background-color: #bbd1e6;
     height: 80px;
     width: 400px;
     text-align: center;
-
 }
