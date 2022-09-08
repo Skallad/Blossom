@@ -1,21 +1,40 @@
 body {
-    background-color:#d4dfe9;
+    background-color: #d4dfe9;
+    position: relative;
 }
 
 h1 {
-    color:#55575f ;
+    color: #55575f;
     text-align: left;
+    letter-spacing: 4px;
 }
 
 h2 {
-    color: #8394b4;;
+    color: #8394b4;
 }
 
 p {
     color: #55575f;
 }
 
+
+.intro-desc {
+    text-align: justify;
+}
+
 #intro-section {
+    margin: auto;
     background-color: #bbd1e6;
-    padding: 50px;
+    height: fit-content;
+    max-width: fit-content;
+    padding: 15px;
+}
+
+#bform {
+    margin: auto;
+    background-color: #bbd1e6;
+    height: 80px;
+    width: 400px;
+    text-align: center;
+
 }
