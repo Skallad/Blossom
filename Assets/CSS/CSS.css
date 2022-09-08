@@ -14,3 +14,8 @@ h2 {
 p {
     color: #55575f;
 }
+
+#intro-section {
+    background-color: #bbd1e6;
+    padding: 50px;
+}
