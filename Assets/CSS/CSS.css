@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #d4dfe9;
+    background-color: #e4eaf0;
+    font-family: 'Dongle', sans-serif;
 }
 
 h1 {
@@ -16,15 +17,16 @@ h1 {
 
 h2 {
     color: #8394b4;
+    letter-spacing: 2px;
 }
 
-p {
+body p {
     color: #55575f;
 }
 
 
 .intro-desc {
-    text-align: justify;
+    text-align: left;
 }
 
 #intro-section {
