@@ -29,6 +29,30 @@ p {
 
 .nav {
     overflow: hidden;
-    border:1px solid #d2dbe4;
+    border: 2px solid #d4dfeb;
 }
 
+.nav button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+.nav button:hover {
+    background-color: #d4dfeb;
+}
+
+.nav button.active {
+    background-color: #d4dfeb;
+}
+
+.navcontent {
+    display: none;
+    padding: 5px 10px;
+    border: 2px solid #d4dfeb;
+    border-top: none;
+}

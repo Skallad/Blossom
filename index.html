@@ -21,19 +21,20 @@
         <h1>Blossom</h1>
     </header>
 
+    <!--Navigation links-->
     <div class="nav">
-        <button class="navlinks" onclick="openPage(event, 'Home')">Home</button>
-        <button class="navlinks" onclick="openPage(event, 'BirthFlower')">Birth flowers</button>
-        <button class="navlinks" onclick="openPage(event, 'About')">About</button>
+        <button class="navlinks active" onclick="openPage(event, 'Home')">Home</button>
+        <button class="navlinks active" onclick="openPage(event, 'BirthFlower')">Birth flowers</button>
+        <button class="navlinks active" onclick="openPage(event, 'About')">About</button>
     </div>
-
-    <div id="home" class="tabcontent">
+    
+    <!--Navigation content-->
+    <div id="Home" class="navcontent">
         <h2>What is a birth flower?</h2>
         <p>blub blub</p>
     </div>
 
-    <div id="Birth-flowers" class="tabcontent">
-        
+    <div id="BirthFlower" class="navcontent">
         <h2>Birth flowers</h2>
         <div class="flowertab">
             <button class="flowerlinks" onclick="openFlower(event, 'January')">January</button>
@@ -48,11 +49,10 @@
             <button class="flowerlinks" onclick="openFlower(event, 'October')">October</button>
             <button class="flowerlinks" onclick="openFlower(event, 'November')">November</button>
             <button class="flowerlinks" onclick="openFlower(event, 'December')">December</button>
-
         </div>
     </div>
 
-    <div id="About" class="tabcontent">
+    <div id="About" class="navcontent">
         <h2>About</h2>
         <p>This page was created by Elena Gramatikofski</p>
     </div>
@@ -63,7 +63,7 @@
         <a href="#">Instagram</a>
         <a href="#">LinkedIn</a>
     </footer>
-    <script src="/Assets/Script/Script.js"></script>
+    <script src="Assets/Script/script.js"></script>
 </body>
 
 </html>
