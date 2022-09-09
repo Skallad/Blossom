@@ -1,7 +1,6 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    border: none;
 }
 
 body {
@@ -11,36 +10,25 @@ body {
 
 h1 {
     color: #55575f;
-    text-align: left;
+    font-size: 75px;
+    font-weight: 100;
     letter-spacing: 4px;
 }
 
 h2 {
     color: #8394b4;
     letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 100;
 }
 
-body p {
+p {
     color: #55575f;
+    font-family: 'Urbanist', sans-serif;
 }
 
-
-.intro-desc {
-    text-align: left;
+.nav {
+    overflow: hidden;
+    border:1px solid #d2dbe4;
 }
 
-#intro-section {
-    margin: auto;
-    background-color: #bbd1e6;
-    height: fit-content;
-    max-width: fit-content;
-    padding: 15px;
-}
-
-#month-form {
-    margin: auto;
-    background-color: #bbd1e6;
-    height: 80px;
-    width: 400px;
-    text-align: center;
-}

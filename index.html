@@ -12,37 +12,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Urbanist&display=swap" rel="stylesheet">
+
     <title>Blossom</title>
 </head>
 
 <body>
     <header>
         <h1>Blossom</h1>
-        <nav>
-            <a href="">Home</a>
-            <a href="/birth-flowers.html">Birth Flowers</a>
-        </nav>
     </header>
 
-    <section>
-        <section id="intro-section">
-            <h2>What are birth flowers?</h2>
-            <p class="intro-desc">Birthflowers are flowers that carry specific meaning depending on the month that they
-                represent and
-                symbolise.</p>
-            <p class="intro-desc">Choose your birth month below to find out what flowers your month has!</p>
-        </section>
-        <div id="month-form">
-            <form action="/Assets/Script/Script.js">
-                <label for="birth-month">Choose your birth month:</label>
-                <input type="month" name="birth-month" id="bmonth">
-                <button form="birth-month" type="submit" value="Submit" id="submit-button">Show me my flowers</button>
-            </form>
-        </div>
-    </section>
-    <section>
+    <div class="nav">
+        <button class="navlinks" onclick="openPage(event, 'Home')">Home</button>
+        <button class="navlinks" onclick="openPage(event, 'BirthFlower')">Birth flowers</button>
+        <button class="navlinks" onclick="openPage(event, 'About')">About</button>
+    </div>
 
-    </section>
+    <div id="home" class="tabcontent">
+        <h2>What is a birth flower?</h2>
+        <p>blub blub</p>
+    </div>
+
+    <div id="Birth-flowers" class="tabcontent">
+        
+        <h2>Birth flowers</h2>
+        <div class="flowertab">
+            <button class="flowerlinks" onclick="openFlower(event, 'January')">January</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'February')">February</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'March')">March</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'April')">April</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'May')">May</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'June')">June</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'July')">July</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'August')">August</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'September')">September</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'October')">October</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'November')">November</button>
+            <button class="flowerlinks" onclick="openFlower(event, 'December')">December</button>
+
+        </div>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h2>About</h2>
+        <p>This page was created by Elena Gramatikofski</p>
+    </div>
+
 
     <footer>
         <a href="#">Facebook</a>
