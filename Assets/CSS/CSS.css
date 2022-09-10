@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #e4eaf0;
+    background-color: #f0f4f8;
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -78,7 +78,7 @@ footer {
 .tabs ul li:hover,
 .tabs ul li.active {
     background: #aec1ca;
-    color: #e4eaf0;
+    color: #f0f4f8;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -89,7 +89,7 @@ footer {
 }
 
 .content {
-    background: #dee6eb;
+    background: #f0f4f8;
     border: 1px solid #83a0b4;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -100,7 +100,6 @@ footer {
     display: flex;
     background: inherit;
     flex-direction: column;
-    border: 1px solid #83a0b4;
 }
 
 .month-tabs ul li {
