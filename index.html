@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Urbanist&display=swap" rel="stylesheet">
-
     <title>Blossom</title>
 </head>
 
@@ -23,47 +22,84 @@
 
     <!--Navigation links-->
     <div class="nav">
-        <button class="navlinks active" onclick="openPage(event, 'Home')">Home</button>
-        <button class="navlinks active" onclick="openPage(event, 'BirthFlower')">Birth flowers</button>
-        <button class="navlinks active" onclick="openPage(event, 'About')">About</button>
-    </div>
-    
-    <!--Navigation content-->
-    <div id="Home" class="navcontent">
-        <h2>What is a birth flower?</h2>
-        <p>blub blub</p>
-    </div>
+        <div class="tabs">
+            <ul>
+                <li class="active">
+                    <span class="text">Home</span>
+                </li>
+                <li>
+                    <span class="text">Birth Flower</span>
+                </li>
+                <li>
+                    <span class="text">About</span>
+                </li>
+            </ul>
+        </div>
 
-    <div id="BirthFlower" class="navcontent">
-        <h2>Birth flowers</h2>
-        <div class="flowertab">
-            <button class="flowerlinks" onclick="openFlower(event, 'January')">January</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'February')">February</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'March')">March</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'April')">April</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'May')">May</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'June')">June</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'July')">July</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'August')">August</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'September')">September</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'October')">October</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'November')">November</button>
-            <button class="flowerlinks" onclick="openFlower(event, 'December')">December</button>
+        <div class="content">
+            <div class="tab-wrap">
+                <div class="title">
+                    Birthflowers
+                </div>
+                <div class="tab-content">
+                    <p>Birthflowers are...</p>
+                </div>
+            </div>
+            <div class="tab-wrap">
+                <div class="month-tabs">
+                    Choose your month:
+                    <ul>
+                        <li>
+                            <span class="month">January</span>
+                        </li>
+                        <li>
+                            <span class="month">February</span>
+                        </li>
+                        <li>
+                            <span class="month">March</span>
+                        </li>
+                        <li>
+                            <span class="month">April</span>
+                        </li>
+                        <li>
+                            <span class="month">May</span>
+                        </li>
+                        <li>
+                            <span class="month">June</span>
+                        </li>
+                        <li>
+                            <span class="month">July</span>
+                        </li>
+                        <li>
+                            <span class="month">August</span>
+                        </li>
+                        <li>
+                            <span class="month">September</span>
+                        </li>
+                        <li>
+                            <span class="month">November</span>
+                        </li>
+                        <li>
+                            <span class="month">December</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-wrap">
+                <div class="title">
+                    About
+                </div>
+                <div class="tab-content">
+                    <p>This page was created by Elena Gramatikofski</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div id="About" class="navcontent">
-        <h2>About</h2>
-        <p>This page was created by Elena Gramatikofski</p>
-    </div>
-
-
     <footer>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">LinkedIn</a>
+
     </footer>
-    <script src="Assets/Script/script.js"></script>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>
