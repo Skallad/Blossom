@@ -15,11 +15,12 @@ header {
     display: flex;
     background: #83a0b4;
     height: 120px;
+    width: 100%;
     font-size: 30px;
     letter-spacing: 15px;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    
 }
 
 a:link,
