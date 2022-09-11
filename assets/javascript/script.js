@@ -6,7 +6,7 @@ tabs.forEach(function (tab, tabIndex) {
 
         tabs.forEach(function (tab) {
             tab.classList.remove('active');
-        })
+        });
 
         tab.classList.add('active');
 
@@ -17,9 +17,9 @@ tabs.forEach(function (tab, tabIndex) {
                 content.style.display = 'none';
             }
 
-        })
-    })
-})
+        });
+    });
+});
 
 var monthTabs = document.querySelectorAll(".month-tabs ul li");
 var monthsWrap = document.querySelectorAll(".flower-container");
@@ -29,16 +29,16 @@ monthTabs.forEach(function (month, monthIndex) {
 
         monthTabs.forEach(function (month) {
             month.classList.remove('active');
-        })
+        });
 
         month.classList.add('active');
 
         monthsWrap.forEach(function(flower, flowerIndex){
             if(flowerIndex == monthIndex){
-                flower.style.display = "block"
+                flower.style.display = "block";
             } else{
-                flower.style.display = "none"
+                flower.style.display = "none";
             }
-        })
-    })
-})
+        });
+    });
+});
