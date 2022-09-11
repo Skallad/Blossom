@@ -32,10 +32,12 @@ a:hover {
     transition: 0.5s;
 }
 
-p {
+p,
+label {
     color: #7c8a91;
     font-family: 'Urbanist', sans-serif;
     font-size: 17px;
+    line-height: 20px;
 }
 
 footer {
@@ -53,7 +55,16 @@ footer {
 footer a {
     padding: 20px;
     font-size: 20px;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
+}
+
+footer p {
+    color: #f0f4f8;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 
 .nav {
@@ -74,7 +85,7 @@ footer a {
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 6px;
     color: #aec1ca;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -121,9 +132,69 @@ footer a {
 
 .container {
     background: #f4f8fa;
+    border: 1px solid #aec1ca;
     padding: 15px;
+    border-radius: 3px;
+}
+form {
+    width: 100%;
+}
+textarea,
+textarea:focus {
+    width: inherit;
+    height: 120px;
+    margin: 15px 0;
+    padding: 3px;
+    font-family: inherit;
+    background-color: #f0f4f8;
+    color: #7c8a91;
+    resize: none;
+    display: block;
     border: 1px solid #aec1ca;
     border-radius: 3px;
+    outline: none;
+}
+
+
+
+input,
+input:focus {
+    width: 25%;
+    border: 1px solid #aec1ca;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 15px 0;
+    background-color: #f0f4f8;
+    outline: none;
+    font-family: inherit;
+
+}
+
+button {
+    width: auto;
+    background-color: #aec1ca;
+    border: none;
+    padding: 3px;
+    margin: 15px 0;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: inherit;
+
+}
+
+button[type=submit] {
+    float: right;
+}
+
+button:hover {
+    background-color: #f0f4f8;
+    transition: 0.3s ease;
+}
+
+button:focus {
+    border: 1px solid #aec1ca;
+    transition: 0s;
 }
 
 .tab-wrap .title,
@@ -131,12 +202,12 @@ footer a {
     font-size: 35px;
     color: #aec1ca;
     margin-bottom: 5px;
+    letter-spacing: 2px;
     font-family: 'Dongle', sans-serif;
 }
 
 .tab-content p {
     margin-bottom: 15px;
-    line-height: 15px;
 }
 
 .month-wrap {
@@ -152,7 +223,8 @@ footer a {
 .month-tabs ul li {
     width: 15%;
     color: #aec1ca;
-    letter-spacing: 3px;
+    font-size: 35px;
+    letter-spacing: 2px;
     cursor: pointer;
     position: relative;
     transition: all 0.5s ease;
@@ -168,14 +240,20 @@ footer a {
     opacity: 1;
 }
 
-.flower-content p{
+.flower-content p {
     margin-bottom: 15px;
-    line-height: 15px;
 }
 
 .flower-wrap .flower-title {
     font-size: 35px;
     color: #7c8a91;
     margin-bottom: 5px;
+    letter-spacing: 2px;
     font-family: 'Dongle', sans-serif;
+}
+
+/*Media Queries*/
+
+@media screen () {
+    
 }
