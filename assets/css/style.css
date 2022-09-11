@@ -19,6 +19,7 @@ header {
     letter-spacing: 15px;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 a:link,
@@ -60,13 +61,14 @@ footer a {
 
 footer p {
     color: #f0f4f8;
-    position: absolute;
+    position: fixed;
     right: 15px;
     bottom: 15px;
     font-size: 12px;
     letter-spacing: 2px;
 }
 
+/*Styles for the tabs*/
 .nav {
     width: 1000px;
     margin: 150px auto;
@@ -129,13 +131,15 @@ footer p {
 .tabs ul li.active:before {
     opacity: 1;
 }
-
+/*The styles applied to the container where the website's content is displayed*/
 .container {
     background: #f4f8fa;
     border: 1px solid #aec1ca;
     padding: 15px;
     border-radius: 3px;
 }
+
+/*Form style rules*/
 form {
     width: 100%;
 }
@@ -154,8 +158,6 @@ textarea:focus {
     border-radius: 3px;
     outline: none;
 }
-
-
 
 input,
 input:focus {
@@ -196,6 +198,8 @@ button:focus {
     border: 1px solid #aec1ca;
     transition: 0s;
 }
+
+/*Style ryles for the clickable months and their respective description*/
 
 .tab-wrap .title,
 .tab-wrap .month-tabs {
@@ -251,4 +255,8 @@ button:focus {
     letter-spacing: 2px;
     font-family: 'Dongle', sans-serif;
 }
+
+/*Media Queries*/
+
+
 
