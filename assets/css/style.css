@@ -66,6 +66,7 @@ footer {
     color: #aec1ca;
     margin-top: 200px;
 }
+
 /*Styles for the tabs*/
 
 .tabs ul {
@@ -125,7 +126,7 @@ footer {
     opacity: 1;
 }
 
-/*The styles applied to the container where the main content is displayed*/
+/*The container where the main content is displayed*/
 .container {
     background: #f4f8fa;
     border: 1px solid #aec1ca;
@@ -205,12 +206,13 @@ button:focus {
     letter-spacing: 2px;
 }
 
-.title, .flower-title,
+.title,
+.flower-title,
 .month-text {
     font-family: 'Dongle', sans-serif;
 }
 
-.tab-content{
+.tab-content {
     text-align: left;
 }
 
