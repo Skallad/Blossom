@@ -21,7 +21,7 @@ a:hover {
 }
 
 body {
-    background-color: #f0f4f8;
+    background-color: #f4f8fa;
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -65,6 +65,7 @@ footer {
     color: #aec1ca;
     margin-top: 200px;
     position: absolute;
+    bottom: 0;
 }
 
 .links {
@@ -75,15 +76,16 @@ footer {
     align-items: center;
 }
 
-.links div {
-    padding: 30px;
+.links li {
+    margin: 0 50px;
 }
 
- p#copyright {
+ #copyright {
     position: absolute;
+    color: #f0f4f8;
+    right: 5px;
     bottom: 5px;
-    right: 20px;
-    color: #aec1ca;
+    line-height: 0;
  }
 
 /*Styles for the tabs*/
