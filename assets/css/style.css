@@ -3,29 +3,15 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    font-weight: 300;
+    font-weight: 100;
 }
 
-body {
-    background-color: #f0f4f8;
-    font-family: 'Urbanist', sans-serif;
-}
-
-header {
-    display: flex;
-    background: #83a0b4;
-    height: 120px;
-    width: 100%;
-    font-size: 30px;
-    letter-spacing: 15px;
-    align-items: center;
-    justify-content: center;
-    
+a {
+    text-decoration: none;
 }
 
 a:link,
 a:visited {
-    text-decoration: none;
     color: #f0f4f8;
 }
 
@@ -34,46 +20,53 @@ a:hover {
     transition: 0.5s;
 }
 
+body {
+    background-color: #f0f4f8;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/*The header and title area*/
+header {
+    background: #83a0b4;
+    height: 120px;
+    width: 100%;
+}
+
+#Blossom {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 8px;
+    padding: 15px;
+}
+
+/*The box containing both tabs and main content*/
+.box {
+    width: 35%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 350px;
+}
+
 p,
 label {
     color: #7c8a91;
-    font-family: 'Urbanist', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 20px;
+    margin-bottom: 15px;
 }
 
 footer {
+    height: 100px;
     background-color: #83a0b4;
-    color: #aec1ca;
-    height: 80px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #aec1ca;
+    margin-top: 200px;
 }
-
-footer a {
-    padding: 20px;
-    font-size: 20px;
-    letter-spacing: 6px;
-}
-
-footer p {
-    color: #f0f4f8;
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
 /*Styles for the tabs*/
-.nav {
-    width: 1000px;
-    margin: 150px auto;
-}
 
 .tabs ul {
     display: flex;
@@ -86,8 +79,7 @@ footer p {
     padding: 3px;
     font-family: 'Dongle', sans-serif;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 6px;
     color: #aec1ca;
     cursor: pointer;
@@ -132,25 +124,28 @@ footer p {
 .tabs ul li.active:before {
     opacity: 1;
 }
-/*The styles applied to the container where the website's content is displayed*/
+
+/*The styles applied to the container where the main content is displayed*/
 .container {
     background: #f4f8fa;
     border: 1px solid #aec1ca;
     padding: 15px;
     border-radius: 3px;
+    height: fit-content;
 }
 
 /*Form style rules*/
 form {
     width: 100%;
 }
+
 textarea,
 textarea:focus {
     width: inherit;
     height: 120px;
     margin: 15px 0;
     padding: 3px;
-    font-family: inherit;
+    font-family: 'Urbanist', sans-serif;
     background-color: #f0f4f8;
     color: #7c8a91;
     resize: none;
@@ -169,7 +164,7 @@ input:focus {
     margin: 15px 0;
     background-color: #f0f4f8;
     outline: none;
-    font-family: inherit;
+    font-family: 'Urbanist', sans-serif;
 
 }
 
@@ -182,7 +177,7 @@ button {
     border-radius: 3px;
     text-transform: uppercase;
     cursor: pointer;
-    font-family: inherit;
+    font-family: 'Urbanist', sans-serif;
 
 }
 
@@ -200,19 +195,23 @@ button:focus {
     transition: 0s;
 }
 
-/*Style ryles for the clickable months and their respective description*/
+/*Style rules for the clickable months and their respective description*/
 
 .tab-wrap .title,
 .tab-wrap .month-tabs {
-    font-size: 35px;
+    font-size: 38px;
     color: #aec1ca;
     margin-bottom: 5px;
     letter-spacing: 2px;
+}
+
+.title, .flower-title,
+.month-text {
     font-family: 'Dongle', sans-serif;
 }
 
-.tab-content p {
-    margin-bottom: 15px;
+.tab-content{
+    text-align: left;
 }
 
 .month-wrap {
@@ -228,7 +227,7 @@ button:focus {
 .month-tabs ul li {
     width: 15%;
     color: #aec1ca;
-    font-size: 35px;
+    font-size: 38px;
     letter-spacing: 2px;
     cursor: pointer;
     position: relative;
@@ -245,19 +244,13 @@ button:focus {
     opacity: 1;
 }
 
-.flower-content p {
-    margin-bottom: 15px;
-}
-
-.flower-wrap .flower-title {
-    font-size: 35px;
+.flower-title {
+    font-size: 33px;
     color: #7c8a91;
     margin-bottom: 5px;
     letter-spacing: 2px;
-    font-family: 'Dongle', sans-serif;
 }
 
-/*Media Queries*/
-
-
-
+ul {
+    list-style: none;
+}
