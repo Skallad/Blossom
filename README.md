@@ -30,9 +30,8 @@ I have created this website
     -  ### Design
       - I myself have created the background picture and wanted it to fit to the website perfectly without interrupting other colors.
     -   #### Colour Scheme
-        -   The main colours used are whitesmoke, ##FEB139, #143F6B, black and #F55353. I have got the inspiration for the colors at [View](https://colorhunt.co/)
-        The Color Palette; 
-        <img src="assets/images/pallete.png">
+        -   The colours used are <img src="https://coolors.co/f4f8fa-eaf2f3-aec1ca-83a0b4-576772">
+        
     -   #### Typography
         -   The Amaranth font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Amaranth is a simple font which is both attractive and appropriate.
     -   #### Videos
