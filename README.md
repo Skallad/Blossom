@@ -4,7 +4,6 @@
 [View the live project here.](https://skallad.github.io/Blossom/)
 
 I have created this website 
-<img href="https://ui.dev/amiresponsive?url=https://skallad.github.io/Blossom/">
 
 
 ## User Experience (UX)
