@@ -21,7 +21,7 @@ tabs.forEach(function (tab, tabIndex) {
     });
 });
 
-var monthTabs = document.querySelectorAll(".month-tabs ul li");
+var monthTabs = document.querySelectorAll(".month-tabs div h4");
 var monthsWrap = document.querySelectorAll(".flower-container");
 
 monthTabs.forEach(function (month, monthIndex) {
