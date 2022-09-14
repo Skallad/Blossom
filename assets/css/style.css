@@ -278,7 +278,6 @@ footer ul {
     right: 10px;
     bottom: 0;
     align-content: center;
-    font-size: x-small;
 }
 
 .copyright {
@@ -357,6 +356,10 @@ footer ul {
 
     .footer-links li {
         padding: 15px;
+    }
+
+    .tabs ul li {
+        font-size: 10%;
     }
 
 }

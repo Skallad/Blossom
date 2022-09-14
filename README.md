@@ -1,10 +1,10 @@
 
 <h1 align="center"> Portfolio Project 2 </h1>
 
-[View the live project here.](https://onursoyar.github.io/Quote-generator/index.html)
+[View the live project here.](https://skallad.github.io/Blossom/)
 
 I have created this website 
-<img src="assets/images/responsive.png">
+<img href="https://ui.dev/amiresponsive?url=https://skallad.github.io/Blossom/">
 
 
 ## User Experience (UX)
