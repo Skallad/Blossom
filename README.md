@@ -2,8 +2,8 @@
 <h1 align="center">
 Blossom - Portfolio Project 2 
 </h1>  
-<h3 align ="center">This website was created from the initial idea of having sketches accompanied by text describing different birth flowers.</h3>
-<h3 align="center">The idea derives from the recently found interest of mine in flowers and plants.</h3>  
+<h5 align ="center">This website was created from the initial idea of having sketches accompanied by text describing different birth flowers. The idea derives from the recently found interest of mine in flowers and plants. The sketches intended to accompany the texts were dropped, but might be added in a later stage as I still want to implement more features and make the website more attractive towards users. Additional content in the future is a possibility as well, perhaps including birth stones.</h5>  
+<br>
 <p align="center"><img src="assets/images/amIResponsive.png"></p>
 
 <h2 align="center">User Experience (UX)</h2>
