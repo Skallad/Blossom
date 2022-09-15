@@ -1,9 +1,10 @@
 
-<h1 align="center"> Portfolio Project 2 </h1>
+# Blossom - Portfolio Project 2
 
-[View the live project here.](https://skallad.github.io/Blossom/)
 
-I have created this website 
+
+
+
 
 
 ## User Experience (UX)
@@ -26,10 +27,12 @@ I have created this website
         1. As a Frequent User, I want to check to see if there are any newly added functions regarding quotes, videos and more.
         2. As a Frequent User, I want to sign up to the website so that I am emailed any major updates and/or changes to the website.
 
-    -  ### Design
-      - I myself have created the background picture and wanted it to fit to the website perfectly without interrupting other colors.
+-   ### Design
+
+      - The background
+
     -   #### Colour Scheme
-        -   The colours used are <img src="https://coolors.co/f4f8fa-eaf2f3-aec1ca-83a0b4-576772">
+        -   The colours used are ![This palette](https://colors.muz.li/palette/f4f8fa/eaf2f3/aec1ca/83a0b4/576772)
         
     -   #### Typography
         -   The Amaranth font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Amaranth is a simple font which is both attractive and appropriate.
