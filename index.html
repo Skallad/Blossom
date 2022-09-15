@@ -10,14 +10,14 @@
     <meta name="author" content="Elena Gramatikofski">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Urbanist:wght@100;400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Urbanist:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Blossom</title>
 </head>
 
 <body>
+    <!--Header area with clickable title that links to home page-->
     <header>
         <div id="Blossom">
             <a href="index.html">Blossom</a>
@@ -25,6 +25,7 @@
     </header>
 
     <!--This is the main page of the website with both navigation tabs and main content-->
+        <!--The creating of the tabs was helped by following the tutorial on YouTube cited as a source in the README.md-->
     <div>
         <div class="box">
             <div class="navigation">
@@ -42,9 +43,11 @@
                     </ul>
                 </div>
             </div>
-
+            
+            <!--The container for site's different tabs' content; 'HOME', 'BIRTH FLOWERS' and 'CONTACT'-->
             <div class="container">
-                <!--Blossom site description-->
+
+                <!--Website description and introduction, linked to 'HOME'-->
                 <div class="tab-wrap" style="display:block;">
                     <div class="title">
                         <h2>Welcome to Blossom!</h2>
@@ -73,7 +76,10 @@
                     </div>
                 </div>
 
-                <!--Tab for each month and its contents-->
+                <!-- These tabs are the website's main content elements, the birth flower descriptions,
+                    separated by their containing elements; the months who are the interactable elements 
+                    connected to the lnked JavaScript file -->
+
                 <div class="tab-wrap" style="display:none;">
                     <div class="month-wrap">
                         <div class="month-tabs">
