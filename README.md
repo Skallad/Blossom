@@ -6,7 +6,7 @@ Blossom - Portfolio Project 2
 <h3 align="center">The idea derives from the recently found interest of mine in flowers and plants.</h3>  
 <p align="center"><img src="assets/images/amIResponsive.png"></p>
 
-## User Experience (UX)
+<h2 align="center">User Experience (UX)</h2>
 
 -   ### User stories
 
@@ -39,13 +39,11 @@ Blossom - Portfolio Project 2
         Dongle was used for the tabs and headings for the content area of the page. Both fonts use sans-serif as a fallback font. 
 
 
--   ### Wireframes
-
-    -   Home Page Wireframe:  
-    <img height="500" src="assets/images/wireframe1.png"> <img height="500" src="assets/images/wireframe3.png"> <img height="500" src="assets/images/wireframe2.png">
+-   ### Wireframes 
+    <img height="450" src="assets/images/wireframe1.png"> <img height="450" src="assets/images/wireframe3.png"> <img height="450" src="assets/images/wireframe2.png">
     
 
-## Features
+<h2 align="center">Features</h2>
 
 -   Responsive on all device sizes
 
@@ -53,18 +51,18 @@ Blossom - Portfolio Project 2
     - Tabs
     - Months
 
-## Technologies Used
+<h2 align="center">Technologies Used</h2>
 
-### Languages Used
+### Languages
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
 
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs
 - [Balsamiq:](https://balsamiq.com/)  
-Balsamiq was used to create the [wireframes](https://github.com/Skallad/Blossom/blob/c491a97ff55252042a5ac0703f6e3018291a0f2c/README.md#L42) during the design process.
+Balsamiq was used to create the [wireframes](#L42) during the design process.
 - [Canva](https://www.canva.com/)  
 Canva is used to create and edit the and background picture video.
 - [FormSubmit](https://formsubmit.co/)  
