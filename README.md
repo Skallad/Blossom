@@ -1,63 +1,57 @@
 
-# Blossom - Portfolio Project 2
-
-
-
-
-
-
+<h1 align="center">
+Blossom - Portfolio Project 2 
+</h1>  
+<h3 align ="center">This website was created from the initial idea of having sketches accompanied by text describing different birth flowers.</h3>
+<h3 align="center">The idea derives from the recently found interest of mine in flowers and plants.</h3>  
+<p align="center"><img src="assets/images/amIResponsive.png"></p>
 
 ## User Experience (UX)
 
 -   ### User stories
 
-    -   #### First Time Visitor Goals
+    -   #### As a first time visitor I want to:
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        - easily understand the main purpose of the site and learn more about the people behind it.
+        - easily navigate through the website to find content.
+        - be able to submit feedback if there is anything I want to tell the creator.
 
-    -   #### Returning Visitor Goals
+    -   #### As a returning visitor I want to:
 
-        1. As a Returning Visitor, I want to find information about updated and new quotes.
-        2. As a Returning Visitor, I want to submit my own and new quotes adn generate new ones..
-        3. As a Returning Visitor, I want to find community links.
+        - extend my knowledge on birth flowers.
+        - be able to submit feedback if needed.
+        - access social media links.
 
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added functions regarding quotes, videos and more.
-        2. As a Frequent User, I want to sign up to the website so that I am emailed any major updates and/or changes to the website.
-
--   ### Design
-
-      - The background
-
-    -   #### Colour Scheme
-        -   The colours used are ![This palette](https://colors.muz.li/palette/f4f8fa/eaf2f3/aec1ca/83a0b4/576772)
+    -   #### As a frequent user I want to:
         
+        - see if there has been any changes made or content added to the website.
+        - be able to contribute with ideas for additional content in the future.
+
+-   ### Design  
+
+    -   #### Colour Scheme and palette
+        - The colours picked are *#f4f8fa #eaf2f3 #aec1ca #83a0b4* and *#576772*  
+            I chose to a blue monochromatic color scheme where I handpicked the colours based on what I thought suited well together.  
+        <img width="400" src="assets/images/Color palette blossom.png">  
+
     -   #### Typography
-        -   The Amaranth font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Amaranth is a simple font which is both attractive and appropriate.
-    -   #### Videos
-        -   The large, background video is designed to be striking and catch the user's attention. It is also relevant and explanatory.
+        -   The main font throughout the website is Urbanist; used on header, footer and paragraphs as well as the form.  
+        Dongle was used for the tabs and headings for the content area of the page. Both fonts use sans-serif as a fallback font. 
 
 
+-   ### Wireframes
 
-*   ### Wireframes
-
-    -   Home Page Wireframe;
-    <img src="assets/images/wireframe1.png">
-   
-
-    -   Quote Generator Page Wireframe -
-    <img src="assets/images/wireframe2.png">
-
-    -   Comments/Feedback Page Wireframe
-    <img src="assets/images/wireframe3.png">
+    -   Home Page Wireframe:  
+    <img height="500" src="assets/images/wireframe1.png"> <img height="500" src="assets/images/wireframe3.png"> <img height="500" src="assets/images/wireframe2.png">
+    
 
 ## Features
 
 -   Responsive on all device sizes
 
--   Interactive elements
+-   Interactive elements:
+    - Tabs
+    - Months
 
 ## Technologies Used
 
@@ -69,31 +63,26 @@
 
 
 ### Frameworks, Libraries & Programs Used
+- [Balsamiq:](https://balsamiq.com/)  
+Balsamiq was used to create the [wireframes](https://github.com/Skallad/Blossom/blob/c491a97ff55252042a5ac0703f6e3018291a0f2c/README.md#L42) during the design process.
+- [Canva](https://www.canva.com/)  
+Canva is used to create and edit the and background picture video.
+- [FormSubmit](https://formsubmit.co/)  
+FormSubmit was used to get comments and feedbacks from users through sending attaching a form for the site. 
+- [Google Fonts:](https://fonts.google.com/)  
+Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+- [Gitpod](https://gitpod.io/)  
+Gitpod was used for the mainpart of coding, testing and push through the terminal to commit to Gitpod and Push to GitHub.
+- [GitHub:](https://github.com/)  
+GitHub is used to store the projects code after being pushed from Git.
+- [Git](https://git-scm.com/)  
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Gipod](https://gitpod.io/)
-    - Gitpod was used for the mainpart of coding, testing and push through the terminal to commit to Gitpod and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-1. [FormSubmit](https://formsubmit.co/)
-    - FormSubmit was used to get comments and feedbacks from users through sending attaching a form for the site. 
-1. [Canva](https://www.canva.com/)   
-    - Canva is used to create and edit the and background picture video.
-1. [Youtube](https://www.youtube.com/)
+
+- [Youtube](https://www.youtube.com/)
     - Youtube is used to upload the store the video.    
-1. [Favicon](https://favicon.io/)
+- [Iconoir](https://iconoir.com/)
     - Favicon is used to create the icon for the title of the webpage.
 
 ## Testing
