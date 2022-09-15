@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <!--Header area with clickable title that links to home page-->
     <header>
         <div id="Blossom">
@@ -24,8 +25,8 @@
         </div>
     </header>
 
-    <!--This is the main page of the website with both navigation tabs and main content-->
-        <!--The creating of the tabs was helped by following the tutorial on YouTube cited as a source in the README.md-->
+    <!--This is the main page of the website with both navigation tabs and main content 
+        The creating of the tabs was helped by following the tutorial on YouTube cited as a source in the README.md -->
     <div>
         <div class="box">
             <div class="navigation">
@@ -419,12 +420,13 @@
                     </div>
                 </div>
 
-                <!--Contact content-->
+                <!--Contact tab container-->
                 <div class="tab-wrap" style="display:none;">
                     <div class="title">
                         <h2>Contact</h2>
                     </div>
-                    <!--Contact/feedback page-->
+
+                    <!--Contact/feedback info-->
                     <div class="tab-content">
                         <p>
                             We value your feedback and suggestions. It keeps our content's standards high and up to
@@ -432,15 +434,20 @@
                             No matter if it's positive or negative, we appreciate Your input and take it seriously.
                         </p>
 
+                        <!--Feedback form fully functional thanks to Formsubmit, linked tp my email address-->
                         <form action="https://formsubmit.co/gramatikofski.elena@gmail.com" method="POST">
                             <input type="text" name="Name" required placeholder="Name">
+
                             <input type="email" name="email" required placeholder="Email Adress">
-                            <input type="hidden" name="_autoresponse"
-                                value="Thank you so much for your feedback! We will look at it and contact you as soon as possible.">
+
+                            <input type="hidden" name="_autoresponse" value="Thank you so much for your feedback! We will look at your message and contact you as soon as possible.">
+
                             <input type="hidden" name="_template" value="box">
-                            <textarea name="feedback" id="feedback" cols="30" rows="10" required
-                                placeholder="Write your feedback here"></textarea>
+
+                            <textarea name="feedback" id="feedback" cols="30" rows="10" required placeholder="Write your feedback here"></textarea>
+
                             <button type="reset">Reset</button>
+
                             <button type="submit">Send</button>
                         </form>
                     </div>
