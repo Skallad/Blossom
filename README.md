@@ -1,10 +1,9 @@
+# Blossom - Portfolio Project 2 
 
-<h1 align="center">
-Blossom - Portfolio Project 2 
-</h1>  
-<h5 align ="center">This website was created from the initial idea of having sketches accompanied by text describing different birth flowers. The idea derives from the recently found interest of mine in flowers and plants. The sketches intended to accompany the texts were dropped, but might be added in a later stage as I still want to implement more features and make the website more attractive towards users. Additional content in the future is a possibility as well, perhaps including birth stones.</h5>  
+<img src="assets/">
+This website was created from the initial idea of having sketches accompanied by text describing different birth flowers. The idea derives from the recently found interest of mine in flowers and plants. The sketches intended to accompany the texts were dropped, but might be added in a later stage as I still want to implement more features and make the website more attractive towards users. Additional content in the future is a possibility as well, perhaps including birth stones.
 <br>
-<p align="center"><img src="assets/images/amIResponsive.png"></p>
+<p align="center"><img src="assets/images/am_i_responsive.png"></p>
 
 <h2 align="center">User Experience (UX)</h2>
 
@@ -40,7 +39,9 @@ Blossom - Portfolio Project 2
 
 
 -   ### Wireframes 
-    <img height="450" src="assets/images/wireframe1.png"> <img height="450" src="assets/images/wireframe3.png"> <img height="450" src="assets/images/wireframe2.png">
+    <img height="400" src="assets/images/homepage_wf_pc.png">
+    <img height="400" src="assets/images/contactpage_wf_ipad.png">
+    <img height="400" src="assets/images/contentpage_wf_iphone.png">
     
 
 <h2 align="center">Features</h2>
