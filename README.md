@@ -1,8 +1,8 @@
 # Blossom - Portfolio Project 2  
 
-![Screenshot of upper half of Blossom website](/assets/images/blossom_header.png "Blossom page layout" )
+![Screenshot of upper half of Blossom website](/assets/images/blossomheader.png "Blossom page layout" )
 
-![Picture of responsive testing of website](assets/images/am_i_responsive.png "Am I responsive test for Blossom")
+![Picture of responsive testing of website](assets/images/amiresponsive.png "Am I responsive test for Blossom")
 
 This website was created from the initial idea of having sketches accompanied by text describing different birth flowers. The idea derives from the recently found interest of mine in flowers and plants. The sketches intended to accompany the texts were dropped, but might be added in a later stage as I still want to implement more features and make the website more attractive towards users. Additional content in the future is a possibility as well, perhaps including birth stones.  
 
@@ -30,16 +30,17 @@ This website was created from the initial idea of having sketches accompanied by
 ### Colour Scheme and palette
    -  The colours picked are *#f4f8fa #eaf2f3 #aec1ca #83a0b4* and *#576772*
    -  I chose to a blue monochromatic color scheme where I handpicked the colours based on what I thought suited well together.  
-    ![Colour palette of five different blue colours](assets/images/color_header_blossom.png "Five colours in blue monochromatic palette")  
+    ![Colour palette of five different blue colours](assets/images/blossompalette.png "Five colours in blue monochromatic palette")  
 
 ### Typography
    - The main font throughout the website is Urbanist; used on header, footer and paragraphs as well as the form.
    -  Dongle was used for the tabs and headings for the content area of the page. Both fonts use sans-serif as a fallback font. 
 
 ### Wireframes 
-  ![PC wireframe showing home page layout](assets/images/homepage_wf_pc.png)  
-  ![iPad wireframe showcasing responsive layout of contact page](assets/images/contactpage_wf_ipad.png)  
-  ![iPhone wireframe layout showcasing responsive layout of birth flower page](assets/images/contentpage_wf_iphone.png)
+  ![PC wireframe showing home page layout](assets/images/homewfpc.png)  
+  ![iPhone wireframe layout showcasing responsive layout of birth flower page](assets/images/contentwfiphone.png)
+  ![iPad wireframe showcasing responsive layout of contact page](assets/images/contactwfipad.png)  
+  
     
 
 ## Features
@@ -123,7 +124,7 @@ The project was deployed to GitHub Pages following these steps:
 - [Tutorial for creating tabs](https://www.youtube.com/watch?v=S5pnVu_d3Mw)  
 This tutorial greatly helped me implement the end results I wanted and be able to use the same functions but for the months where the flower descriptions are displayed.
 - [W3Schools](https://www.w3schools.com/)  
-I took help from this website especially to learn more aobut using flexboxes and further extend my knowledge about MediaQueries as it helped me get the layout I wanted and for the website to respond on different screen sizes.
+I took help from this website especially to learn more aobut using flexboxes and further extend my knowledge about MediaQueries as it helped me get the layout I wanted and for the website to respond on different screen sizes properly.
 - [The Old Farmer's Almanac](https://www.almanac.com/) and [Truly Experiences](https://trulyexperiences.com/blog/birth-month-flowers/)  
 These websites were used to collect information on the meanings behind birth flowers as well as history behind birth flowers.
 
