@@ -43,6 +43,7 @@ header {
 #Blossom {
     font-size: 3.5em;
     letter-spacing: 9px;
+    color: #EAF2F3;
 }
 
 /*Main content area/box*/
@@ -149,7 +150,6 @@ h2 {
 .month-text {
     display: flex;
     flex-direction: column;
-    background: #f4f8fa;
     cursor: pointer;
     position: relative;
     transition: all 0.5s ease;
@@ -172,10 +172,11 @@ h2 {
 /*Form style rules*/
 form {
     width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-textarea,
-textarea:focus {
+textarea {
     width: inherit;
     height: 120px;
     margin: 15px 0;
@@ -190,36 +191,41 @@ textarea:focus {
     outline: none;
 }
 
-input,
-input:focus {
-    width: 25%;
+textarea:focus {
+    outline-offset: 2px;
+    outline: 1px solid #aec1ca;
+    transition: 80ms ease;
+}
+
+input {
     border: 1px solid #aec1ca;
     border-radius: 3px;
     padding: 3px;
-    margin: 15px 0;
+    margin: 15px 5px 0 0;
     background-color: #EAF2F3;
-    outline: none;
     font-family: 'Urbanist', sans-serif;
     color: #7c8a91;
 }
 
+input:focus {
+    outline-offset: 2px;
+    outline: 1px solid #aec1ca;
+    transition: 80ms ease;
+}
+
 button {
-    width: auto;
+    width: min-content;
     background-color: #aec1ca;
     color: #EAF2F3;
     border: none;
     padding: 5px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     border-radius: 3px;
     text-transform: uppercase;
     cursor: pointer;
     font-family: 'Urbanist', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
-}
-
-button[type=submit] {
-    float: right;
 }
 
 button:hover {
@@ -304,7 +310,7 @@ footer ul {
 
     input {
         width: 80%;
-        justify-self: center;
+        
     }
 
 }
