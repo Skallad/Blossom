@@ -62,33 +62,25 @@ Blossom - Portfolio Project 2
 
 ### Frameworks, Libraries & Programs
 - [Balsamiq:](https://balsamiq.com/)  
-Balsamiq was used to create the [wireframes](#L42) during the design process.
+Balsamiq was used to create the wireframes during the design process.
 - [Canva](https://www.canva.com/)  
-Canva is used to create and edit the and background picture video.
+Canva was used to create the colour palette.
 - [FormSubmit](https://formsubmit.co/)  
-FormSubmit was used to get comments and feedbacks from users through sending attaching a form for the site. 
+FormSubmit was used to be able to implement feedback from users through sending a copy of the feedback form via email to the site owner. 
 - [Google Fonts:](https://fonts.google.com/)  
-Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+Google fonts were used to import the 'Urbanist' and 'Dongle' into the HTML and implemented to the site through CSS.
 - [Gitpod](https://gitpod.io/)  
-Gitpod was used for the mainpart of coding, testing and push through the terminal to commit to Gitpod and Push to GitHub.
+Gitpod was used to write the code for the project.
 - [GitHub:](https://github.com/)  
-GitHub is used to store the projects code after being pushed from Git.
+GitHub is used to store the project's files and where you can access all associated with it. 
 - [Git](https://git-scm.com/)  
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-
-
-
-- [Youtube](https://www.youtube.com/)
-    - Youtube is used to upload the store the video.    
+Git was used for utilizing the Gitpod terminal to commit to Git and Push to GitHub.   
 - [Iconoir](https://iconoir.com/)
-    - Favicon is used to create the icon for the title of the webpage.
+    - Iconoir was used to add the copyright icon in the footer.
 
 ## Testing
 
-
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The website has also been tested through Lighthouse.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="assets/images/htmlvalidator.png">
+-   W3C html
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="assets/images/cssvalidator.png">
 
@@ -104,8 +96,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   JShint and lighthouse has showed a few bugs but it is not of concern. 
--   While testing the Navigation bar at some screen does push downwards and to the side. 
+
 
 ## Deployment
 
